@@ -1,0 +1,36 @@
+public class Manage extends Employee {
+
+	private int Team;
+	
+	public Manage(String name, int salary, String department,int Team) {
+		super(name, salary, department);
+		this.Team=Team;
+	
+	}
+	
+	public void makeRaise(int Raise) {
+		System.out.println("raise has been made : "+ Raise+"$");
+		
+	}
+	public void showInformation() {
+		System.out.println("name :" + getName());
+		System.out.println("salary : "+getSalary()+"$");
+		System.out.println("department : "+ getDepartment());
+		//super.showInformation();
+		
+	System.out.println("total number of teams : " + this.Team);
+	}
+
+	
+
+	public int getTeam() {
+		return Team;
+	}
+
+	public void setTeam(int team) {
+		Team = team;
+	}
+	
+	
+	}
+	

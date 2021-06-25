@@ -1,0 +1,13 @@
+public class Test {
+
+	public static void main(String[] args) {
+
+
+		Manage mng=new Manage("Jack",2500, "IT",8);
+		mng.showInformation();
+		mng.getDepartment();
+		
+		
+	}
+
+}
